@@ -1,7 +1,7 @@
 export default class TreeNode {
-    constructor (value = null, root = null) {
+    constructor (value = null, parent = null) {
         this.value = value;
-        this.root = root;
+        this.parent = parent;
         this.left = null;
         this.right = null;
     }
