@@ -1,0 +1,21 @@
+{
+  "name": "js-data-structures",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node -r esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HDeiro/js-data-structures.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HDeiro/js-data-structures/issues"
+  },
+  "homepage": "https://github.com/HDeiro/js-data-structures#readme",
+  "dependencies": {
+    "esm": "3.2.25"
+  }
+}
