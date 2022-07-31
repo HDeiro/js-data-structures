@@ -94,7 +94,8 @@ function executePostfix (expression, variables = {}, separator = ' ') {
         return;
     }
 
-    return stack[0];
+    const result = stack.pop();
+    return result;
 }
 
 console.log(executePostfix('N 2 3 2 + - *', {N: 3}));
