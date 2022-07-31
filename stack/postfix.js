@@ -36,7 +36,7 @@
  *      {6 (5 4 *) +} 9 -
  *      {6 20 +} 9 -
  *      26 9 -
- *      17
+ *      -17
  *      
 */
 const VALID_OPERATIONS = /\+|\-|\/|\*/;
@@ -98,4 +98,5 @@ function executePostfix (expression, variables = {}, separator = ' ') {
     return result;
 }
 
+console.log(executePostfix('2 3 * 5 4 * + 9 -'));
 console.log(executePostfix('N 2 3 2 + - *', {N: 3}));
