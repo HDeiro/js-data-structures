@@ -1,4 +1,4 @@
-// https://www.hackerrank.com/challenges/contacts/problem
+// Results: https://www.hackerrank.com/challenges/contacts/problem
 
 const restrictions = {
     operations: {
